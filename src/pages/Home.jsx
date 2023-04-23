@@ -29,7 +29,7 @@ const Home = () => {
     }
 
     if (apiData?.length === 0) {
-      return <TextCenter>No results</TextCenter>;
+      return <TextCenter>Oops...No results</TextCenter>;
     }
 
     if (apiData) {

@@ -42,10 +42,10 @@ const SearchForm = ({ onSearch }) => {
           onChange={onRadioChange}
         />
         <CustomRadio
-          label="Actors"
+          label="Actors/Actress"
           name="search-option"
-          value="shows"
-          checked={searchOption === 'shows'}
+          value="actors"
+          checked={searchOption === 'actors'}
           onChange={onRadioChange}
         />
       </RadiosWrapper>
