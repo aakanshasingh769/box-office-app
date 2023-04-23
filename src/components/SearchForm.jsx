@@ -50,7 +50,7 @@ const SearchForm = ({ onSearch }) => {
         />
       </RadiosWrapper>
       <SearchButtonWrapper>
-        <button type="button">Search</button>
+        <button type="submit">Search</button>
       </SearchButtonWrapper>
     </form>
   );
